@@ -30,7 +30,7 @@ PPTConvertor 是一款专业的 PowerPoint 文件转换工具，提供以下核�
 ## 🚀 快速开始
 
 1. **下载程序**  
-   获取最新版 `PPTConvertor.exe` 可执行文件(在dist目录下)
+   获取最新版 [PPTConvertor.exe](https://github.com/mjh66666/PPTConvertor/releases/tag/new) 可执行文件(在dist目录下或点击直接下载)
 ---
 
 ## 🛠️ 开发构建
