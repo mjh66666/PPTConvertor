@@ -1,16 +1,5 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-PPT转换工具 - 将PPT转换为图片再转回PPT
-版本: 1.0.0
-作者: mjh
-邮箱: your.email@example.com
-创建日期: 2023-08-01
-最后修改: 2023-08-01
-版权所有: © 2023 你的公司
-许可证: MIT
-"""
 
 import os
 import sys
