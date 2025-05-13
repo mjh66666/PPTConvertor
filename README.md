@@ -40,9 +40,10 @@ PPTConvertor 是一款专业的 PowerPoint 文件转换工具，提供以下核�
    # 克隆项目
    git clone https://github.com/mjh66666/PPTConvertor.git
    cd PPTConvertor
-      
+   conda init   #若在powershell中启动，输入此命令后重新打开终端
    # 创建Conda环境
    conda env create -f environment.yml
+   
    conda activate pptconvertor
    
    # 3. 安装依赖
