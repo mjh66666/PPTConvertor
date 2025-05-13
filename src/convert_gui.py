@@ -19,8 +19,7 @@ VERSION = "1.0.0"
 AUTHOR = "莫炯豪"
 COMPANY = "萝卜丁团队"
 YEAR = "2025"
-LICENSE = "MIT"
-EMAIL = "1922190025@qq.com"
+
 
 # PowerPoint保存格式常量
 PP_SAVE_AS_PNG = 18  # PNG格式

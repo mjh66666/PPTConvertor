@@ -30,28 +30,29 @@ PPTConvertor 是一款专业的 PowerPoint 文件转换工具，提供以下核�
 ## 🚀 快速开始
 
 1. **下载程序**  
-   获取最新版 [PPTConvertor.exe](https://github.com/mjh66666/PPTConvertor/releases/tag/new) 可执行文件(在dist目录下或点击直接下载)
+   获取最新版 [PPTConvertor.exe](https://github.com/mjh66666/PPTConvertor/releases/tag/new) 可执行文件
 ---
 
 ## 🛠️ 开发构建
    首先确保您已经在电脑上安装了conda环境
-   首先确保您已经在电脑上安装了conda
    ```bash
    # 克隆项目
    git clone https://github.com/mjh66666/PPTConvertor.git
    cd PPTConvertor
+   
    conda init   #若在powershell中启动，输入此命令后重新打开终端
+   
    # 创建Conda环境
    conda env create -f environment.yml
-   
    conda activate pptconvertor
+   
    
    # 3. 安装依赖
    pip install -r requirements.txt  
    # 启动图形界面
    python src/convert_gui.py
    #打包为exe
-   pyinstaller PPTConvertor.sepc
+   pyinstaller PPTConvertor.spec
    ```
 ---
 
@@ -64,11 +65,11 @@ PPTConvertor 是一款专业的 PowerPoint 文件转换工具，提供以下核�
 
 2. **设置选项**
 
-   | 选项       | 说明                          |
-   |------------|-------------------------------|
-   | 图片格式   | PNG（高清）或 JPG（压缩）      |
-   | 临时目录   | 建议选择空文件夹               |
-   | 输出位置   | 指定生成 PPT 的保存路径        |
+   | 选项       | 说明                   |
+   |------------|----------------------|
+   | 图片格式   | PNG（高清）或 JPG（压缩）     |
+   | 临时目录   | 建议选择空文件夹,如需保存请指定保存路径 |
+   | 输出位置   | 指定生成 PPT 的保存路径       |
 
 3. **开始转换**  
    - 点击绿色"开始转换"按钮
